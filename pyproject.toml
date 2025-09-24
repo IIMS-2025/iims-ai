@@ -1,0 +1,15 @@
+[project]
+name = "keycode-model"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "catboost>=1.2.8",
+    "fastapi[all]>=0.117.1",
+    "joblib>=1.5.2",
+    "numpy>=2.3.3",
+    "pandas>=2.3.2",
+    "scikit-learn>=1.7.2",
+    "sqlalchemy>=2.0.43",
+]
